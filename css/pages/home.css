@@ -8,9 +8,44 @@
 
 /*CUSTOM STYLE BELOW THIS COMMENT LINE*/
 
-section.container {
+/* hero */
+.hero {
+    /*max-height -- nevisada tinkamas, nes su juo nurodome max viewport*/
+    min-height: 100vh;/*bus matoma tik tiek kiek matomas ekranas iki scroll padeties pakeitimo | aukstis nebendrauja su %, todel naudojama [vh=viewport height] skaiciuoti narsykles plocio ir aukscio atzvilgio procentaliai, matmenys bus nuo 0 iki 100*/
     padding-bottom: 30px;
+    background-image: url(../../img/background.jpg);
+    background-position: center;
+    background-size: cover;
 }
+
+.hero > .short-row {
+    display: flex; /*flex'inant visi elementai yra dedami i viena eile */
+    flex-direction: column; /*nustato flex eiles krypri [kartais pakeicia float]*/
+    gap: 30px; /* suteikia visiems tevo vaikams vienosu tarpus*/
+    text-align: center;
+}
+
+.logo {
+    width: 100%;
+    height: 40px;
+    object-fit: contain; /* img bus centre */
+    object-position: center; /*tai yra default reiksme*/
+}
+
+/* main */
+.main-title {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: -4px;
+    word-spacing: 10px;
+}
+
+.main-description {
+    font-size: 18px;
+}
+
+
+/* footer */
 
 footer.container {
     padding-top: 0px;
