@@ -5,10 +5,12 @@
 /*3rd-party*/
 @import '../3rd-party/font-awesome.min.css';
 /*components*/
-
+@import '../components/clock.css';
+@import '../components/mouse.css';
 /*CUSTOM STYLE BELOW THIS COMMENT LINE*/
 
 /* hero */
+
 .hero {
     /*max-height -- nevisada tinkamas, nes su juo nurodome max viewport*/
     min-height: 100vh;/*bus matoma tik tiek kiek matomas ekranas iki scroll padeties pakeitimo | aukstis nebendrauja su %, todel naudojama [vh=viewport height] skaiciuoti narsykles plocio ir aukscio atzvilgio procentaliai, matmenys bus nuo 0 iki 100*/
@@ -17,7 +19,6 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* atskiria fona nuo turinio, nuotrauka fiksuota o turinis vaiksto*/
-    
 }
 
 .hero > .short-row {
