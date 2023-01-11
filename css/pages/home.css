@@ -8,6 +8,7 @@
 @import '../components/clock.css';
 @import '../components/mouse.css';
 @import '../components/progress-bar.css';
+@import '../components/button.css';
 /*CUSTOM STYLE BELOW THIS COMMENT LINE*/
 
 /* hero */
@@ -27,6 +28,8 @@
     flex-direction: column; /*nustato flex eiles krypri [kartais pakeicia float]*/
     gap: 30px; /* suteikia visiems tevo vaikams vienosu tarpus*/
     text-align: center;
+    align-content: center;
+    align-items: center;
 }
 
 .logo {
