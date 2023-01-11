@@ -55,7 +55,11 @@ footer.container {
     padding-top: 0px;
 }
 
-.row.socials {
+footer > .row {
+    position: relative;
+}
+
+.socials {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -82,4 +86,12 @@ footer.container {
     color: #03a9f3;
     text-decoration: none;
     
+}
+
+.back-to-top {
+background-color: red;
+position: absolute;
+top: 0;
+right: 0;
+
 }
