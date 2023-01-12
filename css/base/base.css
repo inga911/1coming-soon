@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth; /*veikia tik parasius ANT HTML elemento*/
+}
+
+
 body,
 body * {
     margin: 0;

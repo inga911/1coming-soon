@@ -92,9 +92,8 @@ footer > .row {
 }
 
 .back-to-top {
-background-color: red;
 position: absolute;
-top: 0;
-right: 0;
+top: -1.1em;
+right: -0.6em;
 
 }

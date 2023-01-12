@@ -1,5 +1,5 @@
 .btn {
-    padding: 0.5em 2em;
+    padding: 0.5em 0.7em;
     border: none;
     border-radius: 0.2em;
     text-decoration: none;
@@ -7,9 +7,24 @@
     font-size: 20px;
     line-height: 1em;
     background-color: #ea1e63;
+    cursor: pointer;
+    user-select: none; /*neleidzia pazymeti teksto*/
+    text-align: center;
 
 }
 .btn:hover {
   box-shadow: 0 4px 8px #0002;
-
 }
+
+.btn.btn-circle {
+    height: 2em;
+    width: 2em;
+    padding: 0;
+    border-radius: 50%;
+    line-height: 2em;
+}
+
+/*NORINT PAKEISTI KELIAS SAVYBES  TAM TIKRU MYGTUKU PVZ:
+.btn.btn-green {
+  background-color: greenyellow;
+}*/
