@@ -5,10 +5,15 @@
 /*3rd-party*/
 @import '../3rd-party/font-awesome.min.css';
 /*components*/
-
+@import '../components/clock.css';
+@import '../components/mouse.css';
+@import '../components/progress-bar.css';
+@import '../components/button.css';
+@import '../components/form.css';
 /*CUSTOM STYLE BELOW THIS COMMENT LINE*/
 
 /* hero */
+
 .hero {
     /*max-height -- nevisada tinkamas, nes su juo nurodome max viewport*/
     min-height: 100vh;/*bus matoma tik tiek kiek matomas ekranas iki scroll padeties pakeitimo | aukstis nebendrauja su %, todel naudojama [vh=viewport height] skaiciuoti narsykles plocio ir aukscio atzvilgio procentaliai, matmenys bus nuo 0 iki 100*/
@@ -17,7 +22,6 @@
     background-position: center;
     background-size: cover;
     background-attachment: fixed; /* atskiria fona nuo turinio, nuotrauka fiksuota o turinis vaiksto*/
-    
 }
 
 .hero > .short-row {
@@ -25,6 +29,8 @@
     flex-direction: column; /*nustato flex eiles krypri [kartais pakeicia float]*/
     gap: 30px; /* suteikia visiems tevo vaikams vienosu tarpus*/
     text-align: center;
+    align-content: center;
+    align-items: center;
 }
 
 .logo {
@@ -53,7 +59,11 @@ footer.container {
     padding-top: 0px;
 }
 
-.row.socials {
+footer > .row {
+    position: relative;
+}
+
+.socials {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -80,4 +90,11 @@ footer.container {
     color: #03a9f3;
     text-decoration: none;
     
+}
+
+.back-to-top {
+position: absolute;
+top: -1.1em;
+right: -0.6em;
+
 }
