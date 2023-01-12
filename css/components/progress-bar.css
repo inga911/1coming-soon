@@ -1,0 +1,30 @@
+.progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.progress-bar > .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress-bar > .top > .label {
+
+}
+
+.progress-bar > .top > .value {
+
+}
+.progress-bar > .progress {
+    width: 100%;
+    height: 6px;
+    background-color: rgb(196, 196, 196);
+}
+.progress-bar > .progress > .bar {
+    width: 90%;
+    height: 6px;
+    background-color: #03a9f3;
+
+}
+
