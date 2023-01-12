@@ -1,4 +1,5 @@
 .btn {
+  text-transform: capitalize;
     padding: 0.5em 0.7em;
     border: none;
     border-radius: 0.2em;
