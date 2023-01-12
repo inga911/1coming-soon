@@ -13,9 +13,29 @@
     width: 1em;
     height: 1.6em;
     position: absolute;
-    top: 2.5em;
+    top: 2em;
     left: 50%;
     transform:translateX(-50%);
     background-color: rgb(255, 255, 255);
     border-radius: 0.5em;
+    animation-name: scroll; /*irasoma name=to @keyframes ka noresima daryti, siuo atveju scroll*/
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes scroll { /*scroll=tai elemento veiksmo atspindys, tai ka jis tures daryti*/
+    0% { /* kai prasides laikas kazka daryti*/
+        transform:translate(-50%,0); /*sitas judina elementa per jo patie saukstti*/
+        opacity: 1; /*kad nereiketu kiekvienam atskirai keisti spalvu*/
+    }  
+
+    30% { /*viduryje veiksmo tolygiai pereiti spalvoje*/
+        opacity: 1;
+    }
+
+    100%{ /*kai baigsis laikas*/
+        transform:translate(-50%, 350% );
+        opacity: 0;
+
+    } 
 }
