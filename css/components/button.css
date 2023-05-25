@@ -14,7 +14,10 @@
 
 }
 .btn:hover {
-  box-shadow: 0 4px 8px #0002;
+  box-shadow: 0 8px 10px rgba(255, 17, 17, 0.456);
+  background-color: rgb(255, 226, 226);
+  color: #fb105e;
+  transition: all 0.4s;
 }
 
 .btn.btn-circle {
@@ -25,6 +28,10 @@
     line-height: 2em;
 }
 
+
+.subscribe > .btn {
+  margin-top: 15px;
+}
 /*NORINT PAKEISTI KELIAS SAVYBES  TAM TIKRU MYGTUKU PVZ:
 .btn.btn-green {
   background-color: greenyellow;

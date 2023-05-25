@@ -24,7 +24,7 @@
     background-attachment: fixed; /* atskiria fona nuo turinio, nuotrauka fiksuota o turinis vaiksto*/
 }
 
-.hero > .short-row {
+.short-row {
     display: flex; /*flex'inant visi elementai yra dedami i viena eile */
     flex-direction: column; /*nustato flex eiles krypri [kartais pakeicia float]*/
     gap: 30px; /* suteikia visiems tevo vaikams vienosu tarpus*/
@@ -92,9 +92,33 @@ footer > .row {
     
 }
 
+
+
 .back-to-top {
 position: absolute;
 top: -1.1em;
 right: -0.6em;
 
+}
+
+
+
+.fot-logo {
+    width: 50%;
+    padding: 20px;
+}
+
+
+
+
+.short-row > .info > p  {
+    color: #81DDFF;
+    line-height: 2em;
+    text-transform: capitalize;
+
+}
+
+.short-row > .info > p > a {
+    color: #fff;
+    
 }

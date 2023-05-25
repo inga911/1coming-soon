@@ -1,9 +1,17 @@
 .form{
-    display: flex;
+    width: 100%;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: flex-end;
 
+}
+
+.right-column > .form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-end;
+    
 }
 
 .form > input,
@@ -38,13 +46,17 @@
     color: #fff;
 }
 
-.subscribe > input {
-
+.short-row > .subscribe > .input{
+    color: #fff;
     border-bottom: 2px solid #fff;
     width: 100%;
     background: none;
+    
 }
 
+.short-row > .subscribe > .input::placeholder {
+    color: #fff;
+  }
 
 
 
