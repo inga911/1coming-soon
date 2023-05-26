@@ -9,7 +9,7 @@
 .clock > .time {
     width: 25%;
 }
-.clock > .time > .value {
+.clock > .time > h1 {
     font-size: 60px;
     font-weight: bold;
 }
